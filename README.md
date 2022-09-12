@@ -9,7 +9,7 @@ nvm use lts
 npm install latest
 ```
 
-The install the node-fetch package
+Then install the node-fetch package
 
 ```bash
 npm install node-fetch
@@ -29,7 +29,7 @@ This would initiate a project for you which shall include a package.json file. O
 "type": "module"
 ```
 
-To the main.js file, add the following code
+To the main.js file, add the following code.
 
 ```jsx
 import { Headers } from 'node-fetch';
@@ -37,7 +37,7 @@ import fetch from 'node-fetch';
 
 // Add the API key to an header object
 const meta = {
-    "x-dune-api-key": "0PiRuJ5J5tLj6YDJDBalzM410fsFS18I"
+    "x-dune-api-key": "YOUR_API_KEY"
 };
 const header = new Headers(meta);
 
@@ -56,3 +56,8 @@ Just run this script to get results from the Dune API.
 ```bash
 node main.js
 ```
+
+This query (query ID : 1258228) is a simple example query to fetch a small set of data.
+You should see a response being returned on your command line.
+
+You can edit the query URL, to fetch data from any other queries.
