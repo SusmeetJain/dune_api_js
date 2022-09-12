@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 
 // Add the API key to an header object
 const meta = {
-    "x-dune-api-key": "0PiRuJ5J5tLj6YDJDBalzM410fsFS18I"
+    "x-dune-api-key": "YOUR_API_KEY"
 };
 const header = new Headers(meta);
 
