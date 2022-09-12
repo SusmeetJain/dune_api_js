@@ -29,7 +29,7 @@ This would initiate a project for you which shall include a package.json file. O
 "type": "module"
 ```
 
-To the main.js file, add the following code.
+Replace `YOUR_API_KEY` with your Dune API key in the following code and add it to the `main.js` file in your project.
 
 ```jsx
 import { Headers } from 'node-fetch';
